@@ -1,7 +1,44 @@
+body{
+    background-color: #e9d8a6;
+}
 main{
     display: flex;
     width: 100%;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+}
+div{
+    text-align: center;
+    text-shadow: 9px 9px 5px ;
+}
+h1{
+   font-size: 200px;
+}
+.text{
+    display: flex;
+}
+#M{
+    transition: 0.5s;
+
+}
+#M:hover{
+    color: #ED1C24;
+    transform: scale(1.1);
+}
+#E{
+    transition: 0.5s;
+
+}
+#E:hover{
+    color: #F1D302;
+    transform: scale(1.1);
+}
+#L{
+    transition: 0.5s;
+
+}
+#L:hover{
+    color: #7209b7;
+    transform: scale(1.1);
 }
